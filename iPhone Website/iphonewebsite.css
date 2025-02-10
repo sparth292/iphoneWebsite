@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+font-family: 'Gabarito', cursive;
+
+
+
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    position: sticky;
+    z-index: 100;
+    padding: 5px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+
+
+
+}
+
+#logo {
+    margin: 3px 6px;
+}
+
+#logo img {
+    margin: 3px 6px;
+    height: 48px;
+    filter: invert(100%);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home::before {
+    content: "";
+    background: url(impic/daytona.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 618px;
+    width: 100%;
+    z-index: -1;
+
+    background-color: black;
+}
+
+#home h1 {
+    text-align: center;
+
+}
+
+#home p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    color: black;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 6px 20px;
+
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 13px;
+
+
+}
+
+
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+    font-weight: 150;
+}
+
+.btn {
+
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    cursor: pointer;
+}
+
+.btn {
+    background-color: white;
+    color: rgb(15, 15, 15);
+    border: 2px solid #ea94ff;
+}
+
+
+
+
+
+
+
+.services {
+    margin: 34px;
+    display: flex;
+
+}
+
+.services .box {
+    border: 2px solid rgb(53, 53, 53);
+    padding: 34px;
+    margin: 25px 6px;
+    border-radius: 28px;
+    background-color: #cacaca;
+    margin-bottom: 20px;
+}
+
+.services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#iphone15 img {
+
+    align-items: center;
+    margin: auto;
+    margin: px;
+
+    padding-top: 30px;
+    padding-left: 250px;
+    margin: 10px;
+    height: 550px;
+}
+
+#iphone15 p {
+  
+    font-size: 55px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#services-container{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.container {
+    padding-top: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+
+
+.text {
+    font-size: 25px;
+    padding-left: px;
+    margin-left: 50px;
+    width: 400px;
+    max-height: 100%;
+    padding-left: 50px;
+    text-align: center;
+
+
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: none;
+    color: rgb(122, 184, 212);
+}
+
+.container2 {
+    padding-top: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.text2 {
+
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+    padding-left: 35px;
+    width: 300px;
+
+}
+
+.text2 a {
+    text-decoration: none;
+}
+
+.text2 a:hover {
+    text-decoration: none;
+    color: rgb(122, 184, 212);
+}
+
+.image2 {
+    padding-left: px;
+    margin-left: 50px;
+    width: 100px;
+    padding: 100px;
+    padding-left: 200px;
+
+}
+
+#airpods{
+    margin-top: 150px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+#airpods a{
+    color: rgb(68, 113, 211);
+    padding-left: 150px;
+}
+
+#airpods a:hover{
+    color: rgb(158, 188, 255);
+}
+
+#airpods p{
+    padding-left: 150px;
+
+}
+
+body {
+   
+}
+
+
+#content {
+ font-size: 50px;
+ text-align: center;
+ padding: 30px;  
+}
+
+#content a:hover{
+ color: rgb(105, 181, 231);
+
+}
+
+.services {
+    margin: 50px;
+    display: flex;
+    
+}
+
+.services .box {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 25px 6px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.services .box img {
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
